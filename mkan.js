@@ -68,7 +68,7 @@ function renderMenu() {
     card.style.animationDelay = idx * 0.06 + "s";
 
     const img = document.createElement("img");
-    img.src = "../assets/" + encodeURI(m.img);
+    img.src = encodeURI(m.img);
     img.alt = m.name;
     img.loading = "lazy";
 
